@@ -7,10 +7,12 @@ import java.util.Scanner;
 
 public class Salter {
 	
-	public Salter() {
+	public Salter(int d) {
 		
-		File func = new File("Function.csv");
-		Scanner read = new Scanner(func);
-		
+		try {
+			
+			File a = new File("Function.csv");
+			
+		}
 	}
 }
