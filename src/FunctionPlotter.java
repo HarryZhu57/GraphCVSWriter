@@ -18,16 +18,17 @@ public class FunctionPlotter {
         bw = new BufferedWriter(fw);
         try{
             try{
-                bw.write("x,y\n");
                 for(int i=1; i<=1000;i++){
                     x = i;
                     y = x*x;
                     bw.write(x + "," + y + "\n");
                 }
-            } finally {
+            } 
+            finally {
                 bw.close();
             }
-        } catch (Exception e) {
+        } 
+        catch (Exception e) {
             System.out.println("Error in writing or closing file: " + e.toString());
         }
     }
