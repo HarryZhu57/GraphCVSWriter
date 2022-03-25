@@ -30,7 +30,10 @@ public class Salter {
 						int y = Integer.valueOf(comma.substring(com+1));
 						int x = Integer.valueOf(comma.substring(0,com));
 						boolean pone = rand.nextBoolean();
-						int ran = rand.nextInt(d);
+						int ran = 0;
+						if(d > 0) {
+							ran = rand.nextInt(d);
+						}
 				
 						if(pone == true) {
 							ny = y + ran;
