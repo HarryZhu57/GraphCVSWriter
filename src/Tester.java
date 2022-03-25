@@ -4,8 +4,8 @@ public class Tester {
 		Salter sa = new Salter();
 		Smoother sm = new Smoother();
 		
-		int bounds = 0;
-		int range = 2;
+		int bounds = 30000;
+		int range = 7;
 		
 		a.outputGraph();
 		sa.Salt(bounds);
